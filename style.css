@@ -53,6 +53,9 @@ body{
     max-width: 100px;
     font-size: 16px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .inputGroup input:focus-visible{
@@ -65,6 +68,9 @@ body{
 }
 
 .inputGroup p{
+    display: flex;
+    justify-content: center;
+    color: white;
     background: var(--gradiente);
     border-radius: 4px;
     padding: 10px;
